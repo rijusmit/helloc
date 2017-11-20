@@ -21,21 +21,12 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="calc.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="bigsmall.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="gradesandmarks.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="helloc.cpp">
+    <ClCompile Include="secondprogram.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
