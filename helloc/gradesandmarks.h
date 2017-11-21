@@ -4,13 +4,13 @@
 #include <stdio.h>
 #include <conio.h>
 
-int grades();
+void grades();
 
-int grades()
+void grades()
 {
 	float marks;
 		printf("Please Enter Your Marks");
-	scanf_s("%f", &marks);
+	scanf_s("\n%f", &marks);
 
 	if (marks > 90)
 	{
@@ -33,7 +33,7 @@ int grades()
             }
 			else
 			{
-				if (marks >= 60)
+				if (marks > 60)
 				{
 					printf("\n your grade is D");
                 }
@@ -45,5 +45,5 @@ int grades()
 		}
 
 	}
-	return 0;
+	
 }

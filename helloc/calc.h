@@ -12,9 +12,9 @@ void print1to20();
 void oddnumber();
 void evennumber();
 void byfive();
-
+void commonmultiple();
 void byten();
-
+void exercise();
 
 int count()
 {
@@ -105,7 +105,30 @@ void byten()
 
 
 }
+void commonmultiple()
+{	
+	int r = 7;
+	for (int g = 0; g <= 100; g = (g + 1) * g)
+	{
+		if ( (g % 5 == 0) || (g % 8 == 0) )
+		{
+			printf("\nNumber =%d", g);
+		}
+	}
+}
+void exercise()
+{
+	int i, j, k, w, x, y, z;
+	i = 4;
+	j = -1;
+	k = 0;
+	w = i || (j || k) ;
+	x = i && (j && k);
+	y = i || j && k;
+	z = i && j || k;
 
+	printf("w = %d x = %d z = %d y = %d\n", w, x, y, z);
+}
 
 
 
