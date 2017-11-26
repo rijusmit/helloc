@@ -8,6 +8,9 @@
 void big();
 void ibig();
 
+
+void count200();
+
 void big()
 {
 	int x = 10;
@@ -48,7 +51,7 @@ void ibig()
 	printf("\nEnter Value Of x:");
 	scanf_s("%d", &x);
 	printf("\nEnter Value Of y:");
-	scanf_s("%d", &y); 
+	scanf_s("%d", &y);
 	printf("\nEnter Value Of z:");
 	scanf_s("%d", &z);
 	//let me find out which one is the greatest number
@@ -75,4 +78,44 @@ void ibig()
 			printf("\n z is Greatest");
 		}
 	}
+}
+
+
+void count200()
+{
+	/*for (int i = 0; i <= 255; i++)
+	{
+		printf("\n [%d = %c ]",i, i);
+	}*/
+
+	char tl = 201;
+	char tr = 187;
+	char bl = 188;
+	char br = 200;
+	char eq = 205;
+	char pipe = 186;
+
+
+
+	putchar(tl);
+	for (int i = 0; i < 20; i++)
+	{
+		putchar(205);
+	}
+
+
+	putchar(187);
+
+	printf("\n");
+
+	putchar(200);
+	for (int i = 0; i < 20; i++)
+	{
+		putchar(205);
+	}
+
+	putchar(188);
+
+
+
 }
