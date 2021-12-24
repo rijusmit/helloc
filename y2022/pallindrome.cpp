@@ -6,7 +6,9 @@
 using namespace std;
 
 string reverse(string a){
+    
     int x;
+
     x = a.length();
     string y[x];
     int v=0;
