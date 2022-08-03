@@ -15,12 +15,13 @@ int exp(int a,int c){
 
 
 int main(){
-/*int matrix[3][3] = {
+int matrix[3][3] = {
     {1,2,3},
     {1,7,8},
     {5,6,1}
 };
-//cout << "The 2nd Element of 2nd row is "<<matrix[1][1]<<" "<<exp(4,2);
+
+matrix[2][1]=99;
 for (int i = 0;i<3;i++){
     for (int j = 0;j<3;j++){
         
@@ -28,7 +29,7 @@ for (int i = 0;i<3;i++){
     }
     cout << endl;
 }
-return 0;*/
+return 0;
 
 
 }
