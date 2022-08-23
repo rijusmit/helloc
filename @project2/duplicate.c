@@ -2,7 +2,6 @@
 #include<stdlib.h>
 int main(){
     char arr[100]={'a','a','d','f','g','j','j','k','l','l','m','d','o','p'};
-    char arr3[100];
     int num=14;
     int i,j,k;
     for(i=0; i<num; i++)
